@@ -1,0 +1,53 @@
+h1, h3{
+   text-align: center;
+}
+
+.blue-square-container{
+   text-align: center;
+}
+
+.blue-square{
+   background-color: blue;
+   width: 100px;
+   height: 100px;
+   display: inline-block;
+}
+
+.yellow-square{
+   width: 100px;
+   height: 100px;
+   background-color: yellow;
+   margin: 0 auto;
+}
+
+.green-square{
+   background-color: green;
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   left: 50%;
+   margin-left: -50px;  
+
+}
+
+.red-square{
+   background-color: red;
+   width: 200px;
+   height: 200px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.purple-square-container{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.purple-square{
+   background-color: purple;
+   width: 300px;
+   height: 300px;
+}
